@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Image } from "@/components/ui/image";
 
+// NEED NEW IMAGE!!
 const heroImg = "https://media.base44.com/images/public/6a93b4451072c5408a05d178/42cb17c6e_generated_image.png";
 
 const facets = [
