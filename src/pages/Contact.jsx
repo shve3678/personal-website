@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
           <div className="lg:col-span-7 space-y-3">
             {channels.map((c) => (
-              
+              <a
                 key={c.label}
                 href={c.href}
                 className="flex items-center justify-between p-5 rounded-2xl bg-card border border-border hover:border-pop transition-colors"
