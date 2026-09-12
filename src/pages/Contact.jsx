@@ -20,8 +20,7 @@ export default function Contact() {
             Let's <span className="italic text-pop">talk</span>.
           </h1>
           <p className="mt-6 text-muted-foreground leading-relaxed">
-            For research collaborations, speaking invitations, commissions, or just to say hello —
-            the door is open.
+            For research collaborations, speaking invitations, commissions, or just to say hello!
           </p>
         </div>
 
