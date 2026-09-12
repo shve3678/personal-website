@@ -24,17 +24,6 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-          <div className="lg:col-span-5">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <img
-                src={contactImg}
-                alt="Bunny sunset sketch"
-                className="absolute inset-0 h-full w-full object-cover"
-              />
-            </div>
-          </div>
-
         <div className="max-w-lg space-y-3">
           {channels.map((c) => (
             <a
@@ -52,6 +41,18 @@ export default function Contact() {
             </a>
           ))}
         </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          <div className="lg:col-span-5">
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <img
+                src={contactImg}
+                alt="Bunny sunset sketch"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+          </div>
+          
       </div>
     </div>
   </div>
