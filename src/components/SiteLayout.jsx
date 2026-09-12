@@ -20,7 +20,7 @@ export default function SiteLayout() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 border-b border-border bg-[#c93f1d] ${
+        className={`sticky top-0 z-50 transition-all duration-300 border-b border-border bg-[#d9c9a8] ${
         scrolled ? "backdrop-blur-md" : "backdrop-blur-sm"}`
         }>
         
