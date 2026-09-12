@@ -150,7 +150,7 @@ export default function Research() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <img
                 src={tissueImg}
-                alt="Macro view of bone and muscle tissue"
+                alt="Polarized adjusted image of bone with breast cancer metastasis"
                 fittingType="fill"
                 className="absolute inset-0 h-full w-full object-cover" />
               
