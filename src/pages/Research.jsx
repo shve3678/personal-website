@@ -1,25 +1,24 @@
 import React, { useState } from "react";
 import tissueImg from "@/assets/research.png";
+import CV_URL from "@/assets/cv.pdf";
 
 const SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=GjxKj1UAAAAJ&hl=en";
-// Replace with the uploaded CV file URL (upload via chat, then paste the returned file_url here)
-const CV_URL = "";
 
 const directions = [
 {
   band: "bg-moss",
   title: "Aging & spaceflight-induced disuse",
-  desc: "How chronic disuse — from aging or microgravity — drives bone and muscle decline, and what mechanobiology might do about it."
+  desc: "How chronic disuse, from aging or microgravity, drives bone and muscle decline, and what tissue engineering approaches we can use to solve this problem."
 },
 {
   band: "bg-bark",
   title: "Evolutionary biology",
-  desc: "Tracing how the musculoskeletal system's mechanosensitivity evolved across species, environments, and scales."
+  desc: "Can mechanical forces alone drive the way we develop biological complexity, such as multicellularity?"
 },
 {
   band: "bg-pop",
   title: "Performance biomechanics",
-  desc: "Translating tissue-level mechanics into human movement — climbing, dance, and athletic performance."
+  desc: "What is the relationship between cell-level mechanobiology and tissue-level mechanics?"
 }];
 
 
@@ -32,7 +31,7 @@ const projects = [
   field: "Cancer Mechanobiology",
   year: "2026",
   venue: "Tissue Engineering Part A",
-  citations: 0,
+  citations: 1,
   link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GjxKj1UAAAAJ&citation_for_view=GjxKj1UAAAAJ:IjCSPb-OGe4C"
 },
 {
@@ -43,7 +42,7 @@ const projects = [
   field: "Computational Fluid Dynamics",
   year: "2025",
   venue: "Computers in Biology and Medicine 186, 109637",
-  citations: 4,
+  citations: 6,
   link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GjxKj1UAAAAJ&citation_for_view=GjxKj1UAAAAJ:d1gkVwhDpl0C"
 },
 {
@@ -99,16 +98,18 @@ export default function Research() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16">
           <div className="lg:col-span-7">
             <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
-              <span className="text-[hsl(var(--muted-foreground))]">01</span> · Research Portfolio
+              <span className="text-[#c93f1d]">01</span>{""}
+              <span className="text-[hsl(var(--muted-foreground))]"· Research Portfolio</span>
             </p>
             <h1 className="font-display font-light text-balance leading-[1] text-[clamp(2.25rem,5vw,4rem)]">
-              <span className="italic text-[#f7cc55]">Mechanical forces directly impact biology</span>.
+              <span>Mechanical forces directly impact</span>{""}
+              <span className="italic text-[#f7cc55]">biology</span>.
             </h1>
-            <p className="mt-4 font-display text-xl text-[#f7cc55]">Shreya Venkatesh</p>
+            {/* <p className="mt-4 font-display text-xl text-[#f7cc55]">Shreya Venkatesh</p> */}
             <p className="mt-6 max-w-lg text-muted-foreground leading-relaxed">
-              I study how mechanical and fluid forces shape bone tissue and tumor behavior —
-              spanning bone biomechanics, osteocyte mechanobiology, and computational fluid
-              dynamics models of bone metastasis.
+              During my PhD, I studied how fluid mechanical forces (shear stresses) shaped breast cancer cell behavior and thereby influenced bone destruction.
+              My work spanned tumor and osteocyte mechanobiology, fluid dynamics, and transcriptomics. My research interests lie in continuing to investigate how
+              mechanical forces direct biology.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {focusAreas.map((f) =>
@@ -139,9 +140,9 @@ export default function Research() {
                   Download CV (PDF) ↓
                 </a> :
 
-              <span className="inline-flex items-center gap-2 border border-dashed border-border px-5 py-3 rounded-full text-sm text-muted-foreground">
-                  CV — upload pending
-                </span>
+              // <span className="inline-flex items-center gap-2 border border-dashed border-border px-5 py-3 rounded-full text-sm text-muted-foreground">
+              //     CV — upload pending
+              //   </span>
               }
             </div>
           </div>
@@ -180,10 +181,10 @@ export default function Research() {
         {/* directions */}
         <section className="mb-16">
           <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
-            <span className="text-pop">→</span> Where I'm growing
+            <span className="text-pop">→</span> Where I'm headed
           </p>
           <h2 className="font-display font-light text-2xl md:text-3xl mb-8 max-w-2xl leading-tight">
-            Directions I'm curious to <span className="italic text-pop">pivot toward</span>.
+            Directions I'm interested in <span className="italic text-pop">pivoting toward</span>.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {directions.map((d) =>
