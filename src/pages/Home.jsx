@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import heroImg from "@/assets/headshot.png";
+import heroImg from "@/assets/headshot.jpg";
 
 const facets = [
   {
