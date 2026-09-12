@@ -1,5 +1,7 @@
 import React from "react";
-import { Image } from "@/components/ui/image";
+import bharatanatyamImg from "@/assets/dance.png";
+import sketchingImg from "@/assets/sketching.png";
+import climbingImg from "@/assets/climbing.png";
 
 const hobbies = [
   {
@@ -7,7 +9,7 @@ const hobbies = [
     title: "Bharatanatyam",
     blurb:
       "A classical Indian dance form I've practiced for over a decade — precision of rhythm, geometry of gesture, and a discipline of expression that quietly informs how I think about the body.",
-    img: "https://media.base44.com/images/public/6a93b4451072c5408a05d178/b038c34db_generated_image.png",
+    img: bharatanatyamImg,
     update: "Currently rehearsing a varnam for a winter recital.",
     stat: "12 yrs practice",
   },
@@ -16,7 +18,7 @@ const hobbies = [
     title: "Sketching",
     blurb:
       "Mostly anatomy and architecture, in charcoal and ink. Drawing is how I slow down enough to actually see the structures I study.",
-    img: "https://media.base44.com/images/public/6a93b4451072c5408a05d178/4d8a5e26d_generated_image.png",
+    img: sketchingImg,
     update: "Working on a series of musculoskeletal studies.",
     stat: "Daily sketchbook",
   },
@@ -25,7 +27,7 @@ const hobbies = [
     title: "Rock Climbing",
     blurb:
       "Trad and sport climbing. It's the most honest biomechanics lab I know — every route is a problem in force, friction, and fatigue, solved by your own body.",
-    img: "https://media.base44.com/images/public/6a93b4451072c5408a05d178/ede6291b5_generated_image.png",
+    img: climbingImg,
     update: "Training for a multi-pitch route this autumn.",
     stat: "V6 · 5.11c",
   },
@@ -58,7 +60,7 @@ export default function Creative() {
             >
               <div className="lg:col-span-6">
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-                  <Image
+                  <img
                     src={h.img}
                     alt={h.title}
                     fittingType="fill"
