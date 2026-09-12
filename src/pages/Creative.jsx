@@ -10,6 +10,7 @@ const hobbies = [
     blurb:
       "A classical Indian dance form I've practiced for nearly 20 years. Choreography, performance, and movement influence so much of my productivity and my approach to research.",
     img: bharatanatyamImg,
+    fit: "contain",
     update: "Check out my latest work: a dance film exploring what it means to be classical",
     linkText: "dance film",
     linkUrl: "https://www.youtube.com/watch?v=Gblr5kVXm24&list=RDGblr5kVXm24&start_radio=1",
@@ -21,6 +22,7 @@ const hobbies = [
     blurb:
       "Learning as I go, but mostly making art for friends' birthday cards or tattoos at the moment. Hoping to get back into sketching anatomy.",
     img: sketchingImg,
+    fit: "contain",
     update: "Currently teaching myself how to use Procreate for digital art!",
     stat: "Working with my hands",
   },
@@ -30,6 +32,7 @@ const hobbies = [
     blurb:
       "Who needs a biomechanics textbook when you have this! I'm still a beginner, but having a lot of fun trying to get better.",
     img: climbingImg,
+    fit: "cover", // stays cropped/filled, unchanged
     update: "Learning to lead climb at Mt. Lemmon, AZ this summer.",
     stat: "Exercise is good for you",
   },
@@ -84,7 +87,7 @@ export default function Creative() {
                   <img
                     src={h.img}
                     alt={h.title}
-                    className="absolute inset-0 h-full w-full object-cover"
+                    className={`absolute inset-0 h-full w-full object-${h.fit || "cover"}`}
                   />
                 </div>
               </div>
