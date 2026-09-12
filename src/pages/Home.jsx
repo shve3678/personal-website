@@ -43,7 +43,7 @@ export default function Home() {
                 Researcher · Dancer · Maker
               </p>
               <h1 className="font-display font-light text-balance leading-[0.95] text-[clamp(2.75rem,7vw,5.5rem)]">
-                Hello! I'm
+                Hello! I'm{" "}
                 <span className="text-pop">Shreya</span>.
               </h1>
               <p className="mt-8 max-w-3x1 text-muted-foreground leading-relaxed text-[1.05rem]">
