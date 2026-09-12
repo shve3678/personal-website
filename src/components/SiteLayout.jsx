@@ -3,9 +3,9 @@ import { Outlet, NavLink, Link } from "react-router-dom";
 
 const tabs = [
 { label: "Research", to: "/research", bandOn: "bg-moss", bandOff: "bg-moss/30", ink: "text-moss" },
-{ label: "Field Notes", to: "/blog", bandOn: "bg-bark", bandOff: "bg-bark/30", ink: "bg-bark" },
+{ label: "Field Notes", to: "/blog", bandOn: "bg-bark", bandOff: "bg-bark/30", ink: "text-bark" },
 { label: "Creative", to: "/creative", bandOn: "bg-pop", bandOff: "bg-pop/30", ink: "text-pop" },
-{ label: "Contact", to: "/contact", bandOn: "bg-cream", bandOff: "bg-cream/30", ink: "bg-cream" }];
+{ label: "Contact", to: "/contact", bandOn: "bg-cream", bandOff: "bg-cream/30", ink: "text-cream" }];
 
 
 export default function SiteLayout() {
