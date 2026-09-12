@@ -41,7 +41,7 @@ function renderUpdate(h) {
   return (
     <>
       {before}
-      
+      <a
         href={h.linkUrl}
         target="_blank"
         rel="noreferrer"
