@@ -42,7 +42,7 @@ export default function Contact() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        <div className="grid grid-cols-2 lg:grid-cols-12 gap-10 items-start">
           <div className="lg:col-span-5">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <img
