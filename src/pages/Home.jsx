@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Image } from "@/components/ui/image";
-
-// NEED NEW IMAGE!!
-const heroImg = "https://media.base44.com/images/public/6a93b4451072c5408a05d178/42cb17c6e_generated_image.png";
+import heroImg from "@/assets/headshot.png";
 
 const facets = [
   {
@@ -71,7 +68,7 @@ export default function Home() {
             </div>
             <div className="lg:col-span-5">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-                <Image
+                <img
                   src={heroImg}
                   alt="Still life of scientific and creative tools on a linen surface"
                   fittingType="fill"
