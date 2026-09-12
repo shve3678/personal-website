@@ -20,11 +20,11 @@ export default function SiteLayout() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 border-b border-border ${
-        scrolled ? "bg-background/90 backdrop-blur-md" : "bg-background/50 backdrop-blur-sm"}`
+        className={`sticky top-0 z-50 transition-all duration-300 border-b border-border bg-[#b09769] ${
+        scrolled ? "backdrop-blur-md" : "backdrop-blur-sm"}`
         }>
         
-        <div className="max-w-[1200px] mx-auto px-4 md:px-10 h-16 flex items-end justify-between bg-[#b09769]">
+        <div className="max-w-[1200px] mx-auto px-4 md:px-10 h-16 flex items-end justify-between">
           <Link to="/" className="font-display text-xl tracking-tight pb-2.5">
             <span className="text-[#f7cc55]">—</span> Studio
           </Link>
