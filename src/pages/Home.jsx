@@ -7,21 +7,21 @@ const facets = [
     label: "Research",
     to: "/research",
     tag: "Science",
-    desc: "Musculoskeletal mechanobiology — how physical forces shape bone, tendon, and muscle tissue.",
+    desc: "Musculoskeletal mechanobiology...how physical forces shape bone, tendon, and muscle tissue.",
     accent: "text-pop",
   },
   {
     label: "Field Notes",
     to: "/blog",
     tag: "Writing",
-    desc: "Reflections on science, movement, and the strange overlap between them.",
+    desc: "Reflections on science, art, and the surprisingly easy overlap between them.",
     accent: "text-bark",
   },
   {
     label: "Creative",
     to: "/creative",
     tag: "Hobbies",
-    desc: "Bharatanatyam, sketching, and rock climbing — the practices that keep me curious.",
+    desc: "Some of the practices that keep me curious.",
     accent: "text-moss",
   },
 ];
@@ -43,13 +43,13 @@ export default function Home() {
                 Researcher · Dancer · Maker
               </p>
               <h1 className="font-display font-light text-balance leading-[0.95] text-[clamp(2.75rem,7vw,5.5rem)]">
-                Where bone meets
+                Hello! I'm
                 <br />
-                <span className="italic text-pop">movement</span>.
+                <span className="italic text-pop">Shreya</span>.
               </h1>
               <p className="mt-8 max-w-md text-muted-foreground leading-relaxed text-[1.05rem]">
-                I study how mechanical forces shape musculoskeletal tissue — and, away from the
-                bench, I move, draw, and climb. Two lives, one curiosity.
+                Understanding the way the world works is my passion! My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology, and I'm excited about communicating that science effectively and being active in science policy to build trust in science and become more responsible scientists. Away from the
+                bench, creative hobbies fuel my work. If you lead with curiosity too, let's connect!
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link
