@@ -62,7 +62,7 @@ export default function Creative() {
           <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
             <span className="text-pop">03</span> · Creative Interests
           </p>
-          <h1 className="font-display font-light text-balance leading-[1] text-[clamp(2.25rem,5vw,4rem)]">
+          <h1 className="font-display font-light text-balance leading-[1] md:whitespace-nowrap text-[clamp(2.25rem,5vw,4rem)]">
             The practices that keep me <span className="italic text-pop">curious</span>.
           </h1>
           <p className="mt-6 text-muted-foreground leading-relaxed">
