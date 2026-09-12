@@ -103,10 +103,10 @@ export default function Research() {
             </p>
             <h1 className="font-display font-light text-balance leading-[1] text-[clamp(2.25rem,5vw,4rem)]">
               <span>Mechanical forces directly impact</span>{""}
-              <span className="italic text-[#f7cc55]">biology</span>.
+              <span className="italic text-[#c93f1d]">biology</span>.
             </h1>
             {/* <p className="mt-4 font-display text-xl text-[#f7cc55]">Shreya Venkatesh</p> */}
-            <p className="mt-6 max-w-lg text-muted-foreground leading-relaxed">
+            <p className="mt-6 max-w-3x1 text-muted-foreground leading-relaxed">
               During my PhD, I studied how fluid mechanical forces (shear stresses) shaped breast cancer cell behavior and thereby influenced bone destruction.
               My work spanned tumor and osteocyte mechanobiology, fluid dynamics, and transcriptomics. My research interests lie in continuing to investigate how
               mechanical forces direct biology.
