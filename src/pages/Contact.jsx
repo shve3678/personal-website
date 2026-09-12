@@ -26,7 +26,7 @@ export default function Contact() {
 
         <div className="max-w-lg space-y-3">
           {channels.map((c) => (
-            
+            <a
               key={c.label}
               href={c.href}
               className="flex items-center justify-between p-5 rounded-2xl bg-card border border-border hover:border-pop transition-colors"
