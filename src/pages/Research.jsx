@@ -103,7 +103,7 @@ export default function Research() {
             </p>
             <h1 className="font-display font-light text-balance leading-[1] text-[clamp(2.25rem,5vw,4rem)]">
               <span>Mechanical forces directly impact</span>{""}
-              <span className="italic text-[#c93f1d]">biology</span>.
+              <span className="italic text-[#c93f1d]"> biology</span>.
             </h1>
             {/* <p className="mt-4 font-display text-xl text-[#f7cc55]">Shreya Venkatesh</p> */}
             <p className="mt-6 max-w-3x1 text-muted-foreground leading-relaxed">
