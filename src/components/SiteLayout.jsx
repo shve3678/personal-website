@@ -26,7 +26,7 @@ export default function SiteLayout() {
         
         <div className="max-w-[1200px] mx-auto px-4 md:px-10 h-16 flex items-end justify-between">
           <Link to="/" className="font-name text-xl tracking-tight pb-2.5">
-            <span className="text-[#53784a]">—</span> shreya venkatesh, ph.D.
+            <span className="text-[#53784a]">—</span> shreya venkatesh, ph.d.
           </Link>
           <nav className="flex items-end gap-1 md:gap-1.5">
             {tabs.map((t) =>
