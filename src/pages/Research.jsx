@@ -140,9 +140,9 @@ export default function Research() {
                   Download CV (PDF) ↓
                 </a> :
 
-              // <span className="inline-flex items-center gap-2 border border-dashed border-border px-5 py-3 rounded-full text-sm text-muted-foreground">
-              //     CV — upload pending
-              //   </span>
+              <span className="inline-flex items-center gap-2 border border-dashed border-border px-5 py-3 rounded-full text-sm text-muted-foreground">
+                  CV — upload pending
+                </span>
               }
             </div>
           </div>
