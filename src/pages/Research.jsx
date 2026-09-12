@@ -99,7 +99,7 @@ export default function Research() {
           <div className="lg:col-span-7">
             <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
               <span className="text-[#c93f1d]">01</span>{""}
-              <span className="text-[hsl(var(--muted-foreground))]"· Research Portfolio</span>
+              <span className="text-[hsl(var(--muted-foreground))]">· Research Portfolio</span>
             </p>
             <h1 className="font-display font-light text-balance leading-[1] text-[clamp(2.25rem,5vw,4rem)]">
               <span>Mechanical forces directly impact</span>{""}
