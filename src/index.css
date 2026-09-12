@@ -28,6 +28,7 @@
     --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
     --font-display: 'Outfit', ui-sans-serif, system-ui, sans-serif;
     --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    --font-name: 'Audiowide', ui-sans-serif, system-ui, sans-serif;
     /* change primary, accent, ring to change the "color pop" on website */
   }
 }
