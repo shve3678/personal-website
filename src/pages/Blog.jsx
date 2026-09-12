@@ -6,7 +6,7 @@ const posts = [
     date: "Jun 2026",
     title: "The Past Is Our Present: A History of America’s Complicated Relationship with Science",
     excerpt:
-      "I piece I wrote along with some of my peers at the Scientist Network for Advancing Policy (SNAP).",
+      "A piece I wrote along with some of my peers at the Scientist Network for Advancing Policy (SNAP).",
     read: "7 min",
     tag: "Science Policy",
     link: "https://medium.com/science-policy-in-a-snap/the-past-is-our-present-a-history-of-americas-complicated-relationship-with-science-ca1d22f77fff",
@@ -44,7 +44,7 @@ export default function Blog() {
   return (
     <div className="px-6 md:px-10">
       <div className="max-w-[1200px] mx-auto py-10 md:py-16">
-        <div className="mb-16 max-w-2xl">
+        <div className="mb-16 max-w-3xl">
           <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
             <span className="text-pop">02</span> · Field Notes
           </p>
@@ -57,7 +57,7 @@ export default function Blog() {
           </p>
         </div>
 
-        <div className="max-w-4xl divide-y divide-border">
+        <div className="max-w-3xl divide-y divide-border">
           {posts.map((post, i) => (
             <article key={post.id} className="py-8 first:pt-0 last:pb-0">
               <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-widest text-muted-foreground mb-4">
