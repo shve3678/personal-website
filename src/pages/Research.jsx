@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Image } from "@/components/ui/image";
-
-const tissueImg = "https://media.base44.com/images/public/6a93b4451072c5408a05d178/87e31e9e5_generated_image.png";
+import tissueImg from "@/assets/research.png";
 
 const SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=GjxKj1UAAAAJ&hl=en";
 // Replace with the uploaded CV file URL (upload via chat, then paste the returned file_url here)
@@ -149,7 +147,7 @@ export default function Research() {
           </div>
           <div className="lg:col-span-5">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image
+              <img
                 src={tissueImg}
                 alt="Macro view of bone and muscle tissue"
                 fittingType="fill"
