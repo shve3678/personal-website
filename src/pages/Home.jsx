@@ -44,7 +44,7 @@ export default function Home() {
               </p>
               <h1 className="font-display font-light text-balance leading-[0.95] text-[clamp(2.75rem,7vw,5.5rem)]">
                 Hello! I'm
-                <span className="italic text-pop">Shreya</span>.
+                <span className="text-pop">Shreya</span>.
               </h1>
               <p className="mt-8 max-w-3x1 text-muted-foreground leading-relaxed text-[1.05rem]">
                 Understanding the way the world works is my passion! My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology, and I'm excited about communicating that science effectively and being active in science policy to build trust in science and become more responsible scientists. Away from the
