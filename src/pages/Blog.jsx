@@ -48,7 +48,7 @@ export default function Blog() {
           <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
             <span className="text-pop">02</span> · Field Notes
           </p>
-          <h1 className="font-display font-light text-balance leading-[1] text-[clamp(2.25rem,5vw,4rem)]">
+          <h1 className="font-display font-light text-balance leading-[1] md:whitespace-nowrap text-[clamp(2.25rem,5vw,4rem)]">
             Thoughts from the <span className="italic text-pop">in-between</span>.
           </h1>
           <p className="mt-6 text-muted-foreground leading-relaxed">
