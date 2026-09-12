@@ -99,7 +99,7 @@ export default function Research() {
           <div className="lg:col-span-7">
             <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
               <span className="text-[#c93f1d]">01</span>{""}
-              <span className="text-[hsl(var(--muted-foreground))]">· Research Portfolio</span>
+              <span className="text-[hsl(var(--muted-foreground))]">· Research & Professional Portfolio</span>
             </p>
             <h1 className="font-display font-light text-balance leading-[1] text-[clamp(2.25rem,5vw,4rem)]">
               <span>Mechanical forces directly impact</span>{""}
@@ -108,8 +108,7 @@ export default function Research() {
             {/* <p className="mt-4 font-display text-xl text-[#f7cc55]">Shreya Venkatesh</p> */}
             <p className="mt-6 max-w-3x1 text-muted-foreground leading-relaxed">
               During my PhD, I studied how fluid mechanical forces (shear stresses) shaped breast cancer cell behavior and thereby influenced bone destruction.
-              My work spanned tumor and osteocyte mechanobiology, fluid dynamics, and transcriptomics. My research interests lie in continuing to investigate how
-              mechanical forces direct biology.
+              My work spanned tumor and osteocyte mechanobiology, fluid dynamics, and transcriptomics. Currently, I'm interested in pivoting towards distinct but related research areas and applying my skills to other spheres, such as policy, medical writing, and industry positions.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {focusAreas.map((f) =>
@@ -184,7 +183,7 @@ export default function Research() {
             <span className="text-pop">→</span> Where I'm headed
           </p>
           <h2 className="font-display font-light text-2xl md:text-3xl mb-8 max-w-2xl leading-tight">
-            Directions I'm interested in <span className="italic text-pop">pivoting toward</span>.
+            Research directions I'm interested in <span className="italic text-pop">pivoting toward</span>.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {directions.map((d) =>
