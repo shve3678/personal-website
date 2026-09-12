@@ -3,9 +3,9 @@ import { Outlet, NavLink, Link } from "react-router-dom";
 
 const tabs = [
 { label: "Research", to: "/research", bandOn: "bg-moss", bandOff: "bg-moss/30", ink: "text-moss" },
-{ label: "Field Notes", to: "/blog", bandOn: "bg-bark", bandOff: "bg-bark/30", ink: "text-bark" },
+{ label: "Field Notes", to: "/blog", bandOn: "bg-bark", bandOff: "bg-bark/30", ink: "bg-bark" },
 { label: "Creative", to: "/creative", bandOn: "bg-pop", bandOff: "bg-pop/30", ink: "text-pop" },
-{ label: "Contact", to: "/contact", bandOn: "bg-clay", bandOff: "bg-clay/30", ink: "text-clay" }];
+{ label: "Contact", to: "/contact", bandOn: "bg-cream", bandOff: "bg-cream/30", ink: "bg-cream" }];
 
 
 export default function SiteLayout() {
@@ -26,7 +26,7 @@ export default function SiteLayout() {
         
         <div className="max-w-[1200px] mx-auto px-4 md:px-10 h-16 flex items-end justify-between">
           <Link to="/" className="font-display text-xl tracking-tight pb-2.5">
-            <span className="text-[#f7cc55]">—</span> Studio
+            <span className="text-[#c93f1d]">—</span> Shreya Venkatesh, Ph.D.
           </Link>
           <nav className="flex items-end gap-1 md:gap-1.5">
             {tabs.map((t) =>
@@ -81,7 +81,7 @@ export default function SiteLayout() {
             Research <span className="text-pop">×</span> Rhythm
           </p>
           <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-            © 2026 — Built at the intersection of data & dance
+            © 2026 — Built at the intersection of engineering & art
           </p>
         </div>
       </footer>
