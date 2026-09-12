@@ -52,7 +52,8 @@
   .text-pop { color: hsl(var(--accent)); }
   .text-moss { color: hsl(var(--secondary)); }
   .text-sea { color: hsl(200 45% 40%); }
-  .text-bark { color: hsl(28 30% 35%); }
+  .text-bark { color: hsl(233 72% 61%); }
+  .text-cream { color: hsl(40 31% 55%); }
   .bg-pop { background-color: hsl(var(--accent)); }
   .bg-bark { background-color: hsl(233 72% 61%); }
   .bg-moss { background-color: hsl(var(--secondary)); }
