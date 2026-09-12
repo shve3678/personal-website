@@ -8,14 +8,14 @@ const facets = [
     to: "/research",
     tag: "Science",
     desc: "Musculoskeletal mechanobiology...how physical forces shape bone, tendon, and muscle tissue.",
-    accent: "text-pop",
+    accent: "text-moss",
   },
   {
     label: "Field Notes",
     to: "/blog",
     tag: "Writing",
     desc: "Reflections on science, art, and the surprisingly easy overlap between them.",
-    accent: "text-bark",
+    accent: "text-moss",
   },
   {
     label: "Creative",
@@ -44,10 +44,9 @@ export default function Home() {
               </p>
               <h1 className="font-display font-light text-balance leading-[0.95] text-[clamp(2.75rem,7vw,5.5rem)]">
                 Hello! I'm
-                <br />
                 <span className="italic text-pop">Shreya</span>.
               </h1>
-              <p className="mt-8 max-w-md text-muted-foreground leading-relaxed text-[1.05rem]">
+              <p className="mt-8 max-w-3x1 text-muted-foreground leading-relaxed text-[1.05rem]">
                 Understanding the way the world works is my passion! My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology, and I'm excited about communicating that science effectively and being active in science policy to build trust in science and become more responsible scientists. Away from the
                 bench, creative hobbies fuel my work. If you lead with curiosity too, let's connect!
               </p>
@@ -72,7 +71,7 @@ export default function Home() {
                   src={heroImg}
                   alt="Still life of scientific and creative tools on a linen surface"
                   fittingType="fill"
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="absolute inset-0 h-full w-full object-contain"
                 />
               </div>
             </div>
