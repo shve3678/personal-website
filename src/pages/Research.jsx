@@ -157,7 +157,7 @@ export default function Research() {
             </div>
             <div className="mt-4 grid grid-cols-3 gap-3 text-center">
               <div className="bg-card border border-border rounded-xl py-4">
-                <p className="font-display text-2xl text-pop">8</p>
+                <p className="font-display text-2xl text-moss">8</p>
                 <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
                   Citations
                 </p>
@@ -169,7 +169,7 @@ export default function Research() {
                 </p>
               </div>
               <div className="bg-card border border-border rounded-xl py-4">
-                <p className="font-display text-2xl text-bark">5</p>
+                <p className="font-display text-2xl text-moss">5</p>
                 <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
                   Articles
                 </p>
