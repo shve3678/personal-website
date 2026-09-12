@@ -69,7 +69,7 @@ export default function Home() {
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
                 <img
                   src={heroImg}
-                  alt="Still life of scientific and creative tools on a linen surface"
+                  alt="Shreya headshot"
                   fittingType="fill"
                   className="absolute inset-0 h-full w-full object-contain"
                 />
