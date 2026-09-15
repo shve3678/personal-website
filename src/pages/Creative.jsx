@@ -85,7 +85,7 @@ export default function Creative() {
               }`}
             >
               <div className="lg:col-span-6">
-                <div className={`relative ${h.aspect || "aspect-[4/3]"} rounded-2xl overflow-hidden"`}>
+                <div className={`relative ${h.aspect || "aspect-[4/3]"} rounded-2xl overflow-hidden`}>
                   <img
                     src={h.img}
                     alt={h.title}
