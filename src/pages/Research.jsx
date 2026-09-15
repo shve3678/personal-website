@@ -13,7 +13,7 @@ const directions = [
 {
   band: "bg-bark",
   title: "Evolutionary biology",
-  desc: "Can mechanical forces alone drive the way we develop biological complexity, such as multicellularity?"
+  desc: "Can mechanical forces alone drive the way we develop biological complexity, such as multicellularity, and genetic diversity? Also interested in applications like adaptive immunity, immune-pathogen dynamics, and astrobiology."
 },
 {
   band: "bg-pop",
