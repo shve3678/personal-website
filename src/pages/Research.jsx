@@ -193,7 +193,7 @@ export default function Research() {
           <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
             <span className="text-pop">→</span> Where I'm headed
           </p>
-          <h2 className="font-display font-light text-2xl md:text-3xl mb-8 max-w-2xl leading-tight">
+          <h2 className="font-display font-light text-2xl md:text-4xl mb-8 max-w-2xl leading-tight">
             Research directions I'm interested in <span className="italic text-pop">pivoting toward</span>.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
