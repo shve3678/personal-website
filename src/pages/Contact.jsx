@@ -43,7 +43,7 @@ export default function Contact() {
             ))}
           </div>
 
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 self-start">
             <div className="relative aspect-[1/1] rounded-2xl overflow-hidden">
               <img
                 src={contactImg}
