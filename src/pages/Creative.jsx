@@ -12,7 +12,7 @@ const hobbies = [
     img: bharatanatyamImg,
     fit: "contain",
     aspect: "aspect-[3/4]",
-    update: "Check out my latest work: a dance film exploring what it means to be classical",
+    update: "Check out my latest work: a dance film exploring what it means to be a classical art form",
     linkText: "dance film",
     linkUrl: "https://www.youtube.com/watch?v=Gblr5kVXm24&list=RDGblr5kVXm24&start_radio=1",
     stat: "Performer & choreographer",
@@ -85,7 +85,7 @@ export default function Creative() {
               }`}
             >
               <div className="lg:col-span-6">
-                <div className={`relative ${h.aspect || "aspect-[4/3]"} rounded-2xl overflow-hidden`}>
+                <div className={`relative ${h.aspect || "aspect-[4/3]"} max-w-md rounded-2xl overflow-hidden`}>
                   <img
                     src={h.img}
                     alt={h.title}
