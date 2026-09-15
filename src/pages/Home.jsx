@@ -47,7 +47,7 @@ export default function Home() {
                 <span className="text-pop">Shreya</span>.
               </h1>
               <p className="mt-8 max-w-3x1 text-muted-foreground leading-relaxed text-[1.05rem]">
-                Understanding the way the world works is my passion! My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology, and I'm excited about communicating that science effectively and being active in science policy to build trust in science and become more responsible scientists. Away from the
+                Understanding the way the world works is my passion! My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology. I'm excited about communicating that science effectively and being active in science policy to build trust in science and become more responsible scientists. Away from the
                 bench, creative hobbies fuel my work. If you lead with curiosity too, let's connect!
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
