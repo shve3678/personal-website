@@ -33,9 +33,7 @@ const hobbies = [
     title: "Reptile & Amphibian Conservation",
     blurb:
       // "Who needs a biomechanics textbook when you have this! I'm still a beginner, but having a lot of fun trying to get better.",
-      "Herping (herpetology) trips are something I've done since I was a freshman in college at Cornell. Reptiles and amphibians are some of my favorite creatures, and
-      I'm so proud to have worked with them for a very long time, from volunteering at science and conservation centers to going on casual hikes with fellow
-      snake- and frog-lovers to find them in the wild.",
+      "Herping (herpetology) trips are something I've done since I was a freshman in college at Cornell. Reptiles and amphibians are some of my favorite creatures, and I'm so proud to have worked with them for a very long time, from volunteering at science and conservation centers to going on casual hikes with fellow snake- and frog-lovers to find them in the wild.",
     img: climbingImg,
     fit: "cover", // stays cropped/filled, unchanged
     update: "Went on a very fulfilling sea turtle conservation trip in Panama this summer, working with SEE Turtles to protect leatherbacks at the Soropta Research Station!",
