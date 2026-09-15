@@ -34,6 +34,17 @@ const projects = [
   citations: 1,
   link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GjxKj1UAAAAJ&citation_for_view=GjxKj1UAAAAJ:IjCSPb-OGe4C"
 },
+  {
+  id: "p6",
+  title:
+  "Artificial intelligence companionship for loneliness in older adults: An interview with Vijeth Iyengar and Elizabeth Broadbent",
+  authors: "S Venkatesh, P Joshi, AR Groves",
+  field: "Aging & AI",
+  year: "2026",
+  venue: "MIT Science Policy Review",
+  citations: 0,
+  link: "https://sciencepolicyreview.org/2026/07/ai-companionship-for-loneliness-in-older-adults/"
+},
 {
   id: "p2",
   title:
@@ -70,7 +81,7 @@ const projects = [
 {
   id: "p5",
   title:
-  "Meeting Schools Where They Are: Integrating Engineering Outreach Curriculum in the Classroom",
+  "Meeting Schools Where They Are: Integrating Engineering Outreach Curriculum in the Classroom Without Forcing an Agenda",
   authors: "A Hayes, V Sundaram, G Williams, S Venkatesh, C Isenhart, et al.",
   field: "Engineering Education",
   year: "2023",
@@ -106,9 +117,9 @@ export default function Research() {
               <span className="italic text-[#c93f1d]"> biology</span>.
             </h1>
             {/* <p className="mt-4 font-display text-xl text-[#f7cc55]">Shreya Venkatesh</p> */}
-            <p className="mt-6 max-w-3x1 text-muted-foreground leading-relaxed">
+            <p className="mt-6 max-w-4x1 text-muted-foreground leading-relaxed">
               During my PhD, I studied how fluid mechanical forces (shear stresses) shaped breast cancer cell behavior and thereby influenced bone destruction.
-              My work spanned tumor and osteocyte mechanobiology, fluid dynamics, and transcriptomics. Currently, I'm interested in pivoting towards distinct but related research areas and applying my skills to other spheres, such as policy, medical writing, and industry positions.
+              My work spanned tumor and osteocyte mechanobiology, fluid dynamics, and transcriptomics. Currently, I'm interested in pivoting towards distinct but related research areas and applying my skills to other spheres, such as policy and scientific communication.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {focusAreas.map((f) =>
@@ -156,7 +167,7 @@ export default function Research() {
             </div>
             <div className="mt-4 grid grid-cols-3 gap-3 text-center">
               <div className="bg-card border border-border rounded-xl py-4">
-                <p className="font-display text-2xl text-moss">8</p>
+                <p className="font-display text-2xl text-moss">12</p>
                 <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
                   Citations
                 </p>
@@ -234,7 +245,7 @@ export default function Research() {
             </p>
             <h3 className="font-display text-2xl leading-tight mb-3">{current.title}</h3>
             <p className="font-mono text-[13px] text-muted-foreground mb-2">{current.authors}</p>
-            <p className="font-mono text-[13px] text-bark mb-6">
+            <p className="font-mono text-[13px] text-muted-foreground mb-6">
               {current.venue} · {current.year}
             </p>
 
@@ -249,7 +260,7 @@ export default function Research() {
                 <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
                   Field
                 </p>
-                <p className="font-display text-base text-bark pt-1">{current.field}</p>
+                <p className="font-display text-base text-pop pt-1">{current.field}</p>
               </div>
             </div>
 
