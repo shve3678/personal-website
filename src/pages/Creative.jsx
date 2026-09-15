@@ -104,7 +104,7 @@ export default function Creative() {
                 <h2 className="font-display text-3xl md:text-4xl leading-tight mb-4">{h.title}</h2>
                 <p className="text-muted-foreground leading-relaxed mb-6">{h.blurb}</p>
                 <div className="inline-flex items-center gap-2 bg-muted px-4 py-2 rounded-full text-sm">
-                  <span className="h-2 w-2 rounded-full bg-pop" />
+                  <span className="h-2 w-2 rounded-full bg-pop flex-shrink-0" />
                   {renderUpdate(h)}
                 </div>
               </div>
