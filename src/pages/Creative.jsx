@@ -11,6 +11,7 @@ const hobbies = [
       "A classical Indian dance form I've practiced for nearly 20 years. Choreography, performance, and movement influence so much of my productivity and my approach to research.",
     img: bharatanatyamImg,
     fit: "contain",
+    aspect: "aspect-[3/4]",
     update: "Check out my latest work: a dance film exploring what it means to be classical",
     linkText: "dance film",
     linkUrl: "https://www.youtube.com/watch?v=Gblr5kVXm24&list=RDGblr5kVXm24&start_radio=1",
@@ -23,6 +24,7 @@ const hobbies = [
       "Learning as I go, but mostly making art for friends' birthday cards or tattoos at the moment. Hoping to get back into sketching anatomy.",
     img: sketchingImg,
     fit: "contain",
+    aspect: "aspect-[4/5]",
     update: "Currently teaching myself how to use Procreate for digital art!",
     stat: "Working with my hands",
   },
@@ -66,10 +68,10 @@ export default function Creative() {
             <span className="text-pop">03</span> · Creative Interests
           </p>
           <h1 className="font-display font-light text-balance leading-[1] md:whitespace-nowrap text-[clamp(2.25rem,5vw,4rem)]">
-            The practices that keep me <span className="italic text-pop">curious</span>.
+            The things that keep me <span className="italic text-pop">curious</span>.
           </h1>
           <p className="mt-6 text-muted-foreground leading-relaxed">
-            These are entirely separate from my research, but each one quietly sharpens how I
+            These are entirely separate from my research, but each one is essential to shaping how I
             see and think about my work.
           </p>
         </div>
@@ -83,7 +85,7 @@ export default function Creative() {
               }`}
             >
               <div className="lg:col-span-6">
-                <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                <div className="{`relative ${h.aspect || "aspect-[4/3]" || "aspect-[4/5]"} rounded-2xl overflow-hidden">
                   <img
                     src={h.img}
                     alt={h.title}
