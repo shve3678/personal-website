@@ -44,11 +44,11 @@ export default function Contact() {
           </div>
 
           <div className="lg:col-span-5">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+            <div className="relative aspect-[1/1] rounded-2xl overflow-hidden">
               <img
                 src={contactImg}
                 alt="Bunny sunset sketch"
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-contain"
               />
             </div>
           </div>
