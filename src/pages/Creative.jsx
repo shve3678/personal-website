@@ -94,7 +94,7 @@ export default function Creative() {
                   />
                 </div>
               </div>
-              <div className="lg:col-span-6">
+              <div className="lg:col-span-8">
                 <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-widest text-muted-foreground mb-4">
                   <span className="text-pop">{String(i + 1).padStart(2, "0")}</span>
                   <span className="h-px w-8 bg-border" />
