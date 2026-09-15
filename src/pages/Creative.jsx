@@ -1,7 +1,7 @@
 import React from "react";
 import bharatanatyamImg from "@/assets/dance.jpg";
 import sketchingImg from "@/assets/sketching.png";
-import climbingImg from "@/assets/climbing.jpg";
+import climbingImg from "@/assets/frog.jpg";
 
 const hobbies = [
   {
@@ -29,14 +29,17 @@ const hobbies = [
     stat: "Working with my hands",
   },
   {
-    id: "climbing",
-    title: "Rock Climbing",
+    id: "herping",
+    title: "Reptile & Amphibian Conservation",
     blurb:
-      "Who needs a biomechanics textbook when you have this! I'm still a beginner, but having a lot of fun trying to get better.",
+      // "Who needs a biomechanics textbook when you have this! I'm still a beginner, but having a lot of fun trying to get better.",
+      "Herping (herpetology) trips are something I've done since I was a freshman in college at Cornell. Reptiles and amphibians are some of my favorite creatures, and
+      I'm so proud to have worked with them for a very long time, from volunteering at science and conservation centers to going on casual hikes with fellow
+      snake- and frog-lovers to find them in the wild."
     img: climbingImg,
     fit: "cover", // stays cropped/filled, unchanged
-    update: "Learning to lead climb at Mt. Lemmon, AZ this summer.",
-    stat: "Exercise is good for you",
+    update: "Went on a very fulfilling sea turtle conservation trip in Panama this summer, working with SEE Turtles to protect leatherbacks at the Soropta Research Station!",
+    stat: "Argentinian horned frog at My Nature Lab (Louisville, CO)",
   },
 ];
 
