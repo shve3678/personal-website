@@ -1,7 +1,7 @@
 import React from "react";
-import bharatanatyamImg from "@/assets/dance.png";
+import bharatanatyamImg from "@/assets/dance.jpg";
 import sketchingImg from "@/assets/sketching.png";
-import climbingImg from "@/assets/climbing.png";
+import climbingImg from "@/assets/climbing.jpg";
 
 const hobbies = [
   {
@@ -84,7 +84,7 @@ export default function Creative() {
                 i % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
               }`}
             >
-              <div className="lg:col-span-6">
+              <div className="lg:col-span-4">
                 <div className={`relative ${h.aspect || "aspect-[4/3]"} max-w-md rounded-2xl overflow-hidden`}>
                   <img
                     src={h.img}
