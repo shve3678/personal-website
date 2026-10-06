@@ -63,6 +63,17 @@ export default function Home() {
       prevIndex === textCarouselData.length - 1 ? 0 : prevIndex + 1
     );
   };
+
+  const getDistance = (index) => {
+    const total = textCarouselData.length;
+     
+    let diff = index - currentIndex;
+     
+    if (diff > total / 2) diff -= total;
+    if (diff < -total / 2) diff += total;
+     
+    return diff;
+  };
   
   return (
     <div className="px-6 md:px-10">
@@ -137,24 +148,61 @@ export default function Home() {
         </section>
 
         <section className="py-16 border-t border-border">
-          <div style={{ maxWidth: '400px', margin: '20px auto', textAlign: 'center', border: '1px solid #ccc', padding: '20px', borderRadius: '8px' }}>
-      
-            {/* 2. Render both heading and description from the active object */}
-            <div style={{ minHeight: '100px' }}>
-              <h3 style={{ margin: '0 0 10px 0', fontSize: '22px', color: '#333' }}>
-                {textCarouselData[currentIndex].heading}
+          <div className="max-w-6xl mx-auto">
+ 
+              <div className="flex items-center justify-center gap-6">
+               
+              <button
+              onClick={handlePrev}
+              className="text-3xl hover:text-pop transition-colors"
+              >
+              ←
+              </button>
+               
+              <div className="flex items-center justify-center gap-4">
+               
+              {textCarouselData.map((item, index) => {
+              const distance = getDistance(index);
+               
+              let classes =
+              "transition-all duration-500 ease-out rounded-2xl border p-6 bg-card";
+               
+              if (distance === 0) {
+              classes +=
+              " scale-110 w-80 opacity-100 border-pop shadow-xl z-20";
+              } else if (Math.abs(distance) === 1) {
+              classes +=
+              " scale-95 w-64 opacity-75 z-10";
+              } else {
+              classes +=
+              " scale-85 w-56 opacity-40";
+              }
+               
+              return (
+              <div key={index} className={classes}>
+              <h3 className="font-display text-xl mb-3">
+              {item.heading}
               </h3>
-              <p style={{ margin: 0, fontSize: '16px', color: '#666' }}>
-                {textCarouselData[currentIndex].description}
+               
+              <p className="text-sm text-muted-foreground leading-relaxed">
+              {item.description}
               </p>
-            </div>
-
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '20px' }}>
-              <button onClick={handlePrev}>Prev</button>
-                <span>{currentIndex + 1} / {textCarouselData.length}</span>
-              <button onClick={handleNext}>Next</button>
-            </div>
-          </div>
+              </div>
+              );
+              })}
+               
+              </div>
+               
+              <button
+              onClick={handleNext}
+              className="text-3xl hover:text-pop transition-colors"
+              >
+              →
+              </button>
+               
+              </div>
+               
+              </div>
         </section>
       </div>
     </div>
