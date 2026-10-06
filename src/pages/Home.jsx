@@ -47,12 +47,8 @@ export default function Home() {
                 <span className="text-pop">Shreya</span>.
               </h1>
               <p className="mt-8 max-w-3x1 text-muted-foreground leading-relaxed text-[1.05rem]">
-                {/* Understanding the way the world works is my passion! My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology. I'm excited about communicating that science effectively and being active in science policy to build trust in science and become more responsible scientists. Away from the */}
-                {/* bench, creative hobbies fuel my work. If you lead with curiosity too, let's connect! */}
-                I'm an interdisciplinary biomedical scientist, engineer, writer, and science communicator interested in how science can improve lives both inside and outside the lab. My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology, particularly at the intersection of cancer, aging, and bone biology. Beyond the laboratory, I work at the intersection of science and society through policy, public communication, education, and community engagement.
-                <br />
-                <br />
-                My career has been shaped by a curiosity that crosses disciplinary boundaries. I trained as a biomedical and mechanical engineer, conduct research in cancer and aging biology, write about science and technology policy, and work with communities to make technical information more accessible. Across these settings, the common thread is the same: understanding complex problems, connecting ideas across disciplines, and communicating evidence in ways that help people act on it.
+                I'm an interdisciplinary biomedical scientist, engineer, writer, and science communicator interested in how science can improve lives both inside and outside the lab. Understanding the way the world works is my passion! My background is in biomechanics and mechanobiology, studying how mechanical forces shape biology.
+                I'm eager to communicate that science effectively and remain active in science policy, ultimately to build trust in science and become more responsible scientists. Away from the bench, creative hobbies fuel my work. If you lead with curiosity too, let's connect!
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link
