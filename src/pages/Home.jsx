@@ -56,7 +56,14 @@ export default function Home() {
     setCurrentIndex((prevIndex) => 
       prevIndex === 0 ? textCarouselData.length - 1 : prevIndex - 1
     );
-    
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => 
+      prevIndex === carouselData.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+  
   return (
     <div className="px-6 md:px-10">
       <div className="max-w-[1200px] mx-auto">
