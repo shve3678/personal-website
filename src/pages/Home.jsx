@@ -60,7 +60,7 @@ export default function Home() {
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => 
-      prevIndex === carouselData.length - 1 ? 0 : prevIndex + 1
+      prevIndex === textCarouselData.length - 1 ? 0 : prevIndex + 1
     );
   };
   
