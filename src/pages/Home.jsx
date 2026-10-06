@@ -1,6 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import heroImg from "@/assets/headshot.jpg";
+
+const textCarouselData = [
+  {
+    heading: "Interdisciplinary problem solving",
+    description: "I move comfortably between biology, engineering, computational analysis, and policy."
+  },
+  {
+    heading: "Evidence synthesis",
+    description: "My research and policy work during grad school taught me to distill large bodies of technical information into clear, actionable conclusions and recommendations."
+  },
+  {
+    heading: "Scientific storytelling",
+    description: "Communicating complex ideas is one of my biggest skills, be it through manuscripts, grants, policy memos, public talks, or K-12 outreach programs."
+  },
+  {
+    heading: "Stakeholder engagement",
+    description: "I've worked with researchers, educators, policymakers, attorneys, community organizations, and public audiences."
+  },
+  {
+    heading: "Project ownership",
+    description: "And it's not just ideas...I have led multi-year research projects and community initiatives all the way from ideation to efficient execution and output dissemination."
+  },
+];
 
 const facets = [
   {
@@ -27,6 +50,13 @@ const facets = [
 ];
 
 export default function Home() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) => 
+      prevIndex === 0 ? textCarouselData.length - 1 : prevIndex - 1
+    );
+    
   return (
     <div className="px-6 md:px-10">
       <div className="max-w-[1200px] mx-auto">
@@ -96,6 +126,27 @@ export default function Home() {
                 <p className="text-muted-foreground leading-relaxed text-sm">{f.desc}</p>
               </Link>
             ))}
+          </div>
+        </section>
+
+        <section className="py-16 border-t border-border">
+          <div style={{ maxWidth: '400px', margin: '20px auto', textAlign: 'center', border: '1px solid #ccc', padding: '20px', borderRadius: '8px' }}>
+      
+            {/* 2. Render both heading and description from the active object */}
+            <div style={{ minHeight: '100px' }}>
+              <h3 style={{ margin: '0 0 10px 0', fontSize: '22px', color: '#333' }}>
+                {textCarouselData[currentIndex].heading}
+              </h3>
+              <p style={{ margin: 0, fontSize: '16px', color: '#666' }}>
+                {textCarouselData[currentIndex].description}
+              </p>
+            </div>
+
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '20px' }}>
+              <button onClick={handlePrev}>Prev</button>
+                <span>{currentIndex + 1} / {textCarouselData.length}</span>
+              <button onClick={handleNext}>Next</button>
+            </div>
           </div>
         </section>
       </div>
