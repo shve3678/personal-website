@@ -194,34 +194,36 @@ export default function Home() {
               <div className="grid grid-cols-3 gap-4">
                 {/* Large image */}
                 <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden min-h-[500px]">
-                <img
-                  src={TMTImage}
-                  alt="3MT finalist competition talk"
-                  className="object-cover"
-                />
+                  <img
+                    src={TMTImage}
+                    alt="3MT finalist competition talk"
+                    className="object-cover"
+                  />
+                </div>
+                
                 {/* Small images */}
                 <div className="rounded-2xl overflow-hidden aspect-square">
-                <img
-                  src={presentingImg}
-                  alt="Podium talk at local symposium"
+                  <img
+                    src={presentingImg}
+                    alt="Podium talk at local symposium"
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <img
+                  src={conferenceImg}
+                  alt="Podium talk at national conference"
                   className="object-cover transition-transform duration-300 hover:scale-105"
-                />
-                <img
-                src={conferenceImg}
-                alt="Podium talk at national conference"
-                className="object-cover transition-transform duration-300 hover:scale-105"
-                />
-                <img
-                src={outreachImg}
-                alt="Conducting an air quality summer outreach program for migrant workers' children"
-                className="object-cover transition-transform duration-300 hover:scale-105"
-                />
-                <img
-                src={policyImg}
-                alt="Boothing for grassroots science policy initiatives at the 2026 AAAS meeting"
-                className="object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </div>
+                  />
+                  <img
+                  src={outreachImg}
+                  alt="Conducting an air quality summer outreach program for migrant workers' children"
+                  className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <img
+                  src={policyImg}
+                  alt="Boothing for grassroots science policy initiatives at the 2026 AAAS meeting"
+                  className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
           
               <div>
                 <h2 className="font-display text-4xl mb-4">
