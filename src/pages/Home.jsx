@@ -178,7 +178,7 @@ export default function Home() {
   <div className="grid lg:grid-cols-2 gap-10 items-center">
 
     {/* Images */}
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-4 gap-4">
       {/* Large image */}
       <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden min-h-[500px]">
         <img
@@ -189,14 +189,14 @@ export default function Home() {
       </div>
 
       {/* Small images */}
-      <div className="rounded-2xl overflow-hidden aspect-square">
+      <div className="col-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
         <img
           src={presentingImg}
           alt="Podium talk at local symposium"
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
       </div>
-      <div className="rounded-2xl overflow-hidden aspect-square">
+      <div className="col-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
         <img
           src={conferenceImg}
           alt="Podium talk at national conference"
