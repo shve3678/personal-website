@@ -203,14 +203,14 @@ export default function Home() {
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
       </div>
-      <div className="rounded-2xl overflow-hidden aspect-square">
+      <div className="col-span-2 rounded-2xl overflow-hidden aspect-square">
         <img
           src={outreachImg}
           alt="Conducting an air quality summer outreach program for migrant workers' children"
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
       </div>
-      <div className="rounded-2xl overflow-hidden aspect-square">
+      <div className="col-span-2 rounded-2xl overflow-hidden aspect-square">
         <img
           src={policyImg}
           alt="Boothing for grassroots science policy initiatives at the 2026 AAAS meeting"
