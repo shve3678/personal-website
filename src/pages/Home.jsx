@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import heroImg from "@/assets/headshot.jpg";
+import presentingImg from "@/assets/presenting.png";
+import TMTImg from "@/assets/3MT.jpg";
+import outreachImg from "@/assets/outreach.jpg";
+import conferenceImg from "@/assets/conference.jpg";
+import policyImg from "@/assets/policy.jpg";
 
 const textCarouselData = [
   {
@@ -50,19 +55,6 @@ const facets = [
 ];
 
 export default function Home() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? textCarouselData.length - 1 : prevIndex - 1
-    );
-  };
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === textCarouselData.length - 1 ? 0 : prevIndex + 1
-    );
-  };
 
   const getDistance = (index) => {
     const total = textCarouselData.length;
@@ -88,7 +80,7 @@ export default function Home() {
                   <span className="text-sea">●</span>
                   <span className="text-pop">●</span>
                 </span>
-                Researcher · Dancer · Maker
+                Scientist · Engineer · Communicator · Creative
               </p>
               <h1 className="font-display font-light text-balance leading-[0.95] text-[clamp(2.75rem,7vw,5.5rem)]">
                 Hello! I'm{" "}
@@ -148,62 +140,104 @@ export default function Home() {
         </section>
 
         <section className="py-16 border-t border-border">
-          <div className="max-w-6xl mx-auto">
- 
-              <div className="flex items-center justify-center gap-6">
-               
-              <button
-              onClick={handlePrev}
-              className="text-3xl hover:text-pop transition-colors"
-              >
-              ←
-              </button>
-               
-              <div className="flex items-center justify-center gap-4">
-               
-              {textCarouselData.map((item, index) => {
-              const distance = getDistance(index);
-               
-              let classes =
-              "transition-all duration-500 ease-out rounded-2xl border p-6 bg-card";
-               
-              if (distance === 0) {
-              classes +=
-              " scale-110 w-80 opacity-100 border-pop shadow-xl z-20";
-              } else if (Math.abs(distance) === 1) {
-              classes +=
-              " scale-95 w-64 opacity-75 z-10";
-              } else {
-              classes +=
-              " scale-85 w-56 opacity-40";
-              }
-               
-              return (
-              <div key={index} className={classes}>
-              <h3 className="font-display text-xl mb-3">
-              {item.heading}
-              </h3>
-               
-              <p className="text-sm text-muted-foreground leading-relaxed">
-              {item.description}
-              </p>
+            <div className="max-w-6xl mx-auto">
+          
+              <div className="mb-10 text-center">
+                <h2 className="font-display text-4xl mb-3">
+                  What I Bring
+                </h2>
+                <p className="text-muted-foreground">
+                  A few themes that connect my work across science, engineering,
+                  communication, and policy.
+                </p>
               </div>
-              );
-              })}
-               
+          
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+                {textCarouselData.map((item, index) => (
+                  <div
+                    key={index}
+                    className="
+                      p-8
+                      rounded-3xl
+                      border
+                      border-border
+                      bg-card
+                      shadow-sm
+                      hover:shadow-lg
+                      hover:border-pop
+                      hover:bg-accent/20
+                      hover:-translate-y-1
+                      transition-all
+                      duration-300
+                    "
+                  >
+                    <h3 className="font-display text-2xl mb-4">
+                      {item.heading}
+                    </h3>
+                
+                    <p className="text-muted-foreground leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+          
               </div>
-               
-              <button
-              onClick={handleNext}
-              className="text-3xl hover:text-pop transition-colors"
-              >
-              →
-              </button>
-               
-              </div>
-               
-              </div>
+          
+            </div>
         </section>
+
+        <section className="py-20 border-t border-border">
+            <div className="grid lg:grid-cols-2 gap-10 items-center">
+          
+              {/* Images */}
+              <div className="grid grid-cols-3 gap-4">
+                {/* Large image */}
+                <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden min-h-[500px]">
+                <img
+                  src={TMTImage}
+                  alt="3MT finalist competition talk"
+                  className="object-cover"
+                />
+                {/* Small images */}
+                <div className="rounded-2xl overflow-hidden aspect-square">
+                <img
+                  src={presentingImg}
+                  alt="Podium talk at local symposium"
+                  className="object-cover transition-transform duration-300 hover:scale-105"
+                />
+                <img
+                src={conferenceImg}
+                alt="Podium talk at national conference"
+                className="object-cover transition-transform duration-300 hover:scale-105"
+                />
+                <img
+                src={outreachImg}
+                alt="Conducting an air quality summer outreach program for migrant workers' children"
+                className="object-cover transition-transform duration-300 hover:scale-105"
+                />
+                <img
+                src={policyImg}
+                alt="Boothing for grassroots science policy initiatives at the 2026 AAAS meeting"
+                className="object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+          
+              <div>
+                <h2 className="font-display text-4xl mb-4">
+                  Science in Action
+                </h2>
+          
+                <p className="text-muted-foreground leading-relaxed">
+                  Whether I'm presenting research, writing policy
+                  recommendations, mentoring students, or engaging
+                  with the public, I'm interested in helping people
+                  connect evidence with meaningful decisions.
+                </p>
+              </div>
+            </div>    
+        </section>
+        
       </div>
     </div>
   );
