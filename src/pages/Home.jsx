@@ -180,7 +180,7 @@ export default function Home() {
     {/* Images */}
     <div className="grid grid-cols-4 gap-4">
       {/* Large image */}
-      <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden min-h-[500px]">
+      <div className="col-span-2 row-span-3 rounded-2xl overflow-hidden min-h-[500px]">
         <img
           src={TMTImg}
           alt="3MT finalist competition talk"
@@ -189,14 +189,14 @@ export default function Home() {
       </div>
 
       {/* Small images */}
-      <div className="col-span-3 rounded-2xl overflow-hidden aspect-[2/1]">
+      <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
         <img
           src={presentingImg}
           alt="Podium talk at local symposium"
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
       </div>
-      <div className="col-span-3 rounded-2xl overflow-hidden aspect-[2/1]">
+      <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
         <img
           src={conferenceImg}
           alt="Podium talk at national conference"
