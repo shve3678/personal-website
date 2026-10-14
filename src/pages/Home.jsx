@@ -175,10 +175,10 @@ export default function Home() {
         </section>
 
         <section className="py-20 border-t border-border">
-  <div className="grid lg:grid-cols-2 gap-10 items-center">
+  <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
     {/* Images */}
-    <div className="grid grid-cols-4 gap-4">
+    <div className="lg:col-span-8 grid grid-cols-4 gap-4">
       {/* Large image */}
       <div className="col-span-2 row-span-3 rounded-2xl overflow-hidden min-h-[500px]">
         <img
@@ -219,8 +219,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div>
-      <h2 className="font-display text-4xl mb-4">
+    <div className="lg:col-span-4">
+      <h2 className="font-display text-3xl mb-4">
         Science in Action
       </h2>
       <p className="text-muted-foreground leading-relaxed">
