@@ -219,7 +219,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="lg:col-span-4">
+    <div className="lg:col-span-4 self-start">
       <h2 className="font-display text-3xl mb-4">
         Science in Action
       </h2>
