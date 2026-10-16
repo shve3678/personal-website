@@ -94,11 +94,11 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:col-span-5">
-              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <div className="rounded-2xl overflow-hidden">
                 <img
                   src={heroImg}
                   alt="Shreya headshot"
-                  className="absolute inset-0 h-full w-full object-contain"
+                  className="absolute inset-0 h-full w-full"
                 />
               </div>
             </div>
