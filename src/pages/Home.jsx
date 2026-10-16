@@ -175,61 +175,60 @@ export default function Home() {
         </section>
 
         <section className="py-20 border-t border-border">
-  <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-
-    {/* Images */}
-    <div className="lg:col-span-8 grid grid-cols-4 gap-4">
-      {/* Large image */}
-      <div className="col-span-2 row-span-3 rounded-2xl overflow-hidden min-h-[500px]">
-        <img
-          src={TMTImg}
-          alt="3MT finalist competition talk"
-          className="w-full h-full object-cover"
-        />
-      </div>
-
-      {/* Small images */}
-      <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
-        <img
-          src={presentingImg}
-          alt="Podium talk at local symposium"
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-        />
-      </div>
-      <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
-        <img
-          src={conferenceImg}
-          alt="Podium talk at national conference"
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-        />
-      </div>
-      <div className="col-span-2 rounded-2xl overflow-hidden aspect-square">
-        <img
-          src={outreachImg}
-          alt="Conducting an air quality summer outreach program for migrant workers' children"
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-        />
-      </div>
-      <div className="col-span-2 rounded-2xl overflow-hidden aspect-square">
-        <img
-          src={policyImg}
-          alt="Boothing for grassroots science policy initiatives at the 2026 AAAS meeting"
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-        />
-      </div>
-    </div>
-
-    <div className="lg:col-span-4 self-start">
-      <h2 className="font-display text-3xl mb-4">
-        Science in Action
-      </h2>
-      <p className="text-muted-foreground leading-relaxed">
-        Whether I'm presenting research, writing policy
-        recommendations, mentoring students, or engaging
-        with the public, I'm interested in helping people
-        connect evidence with meaningful decisions.
-      </p>
-    </div>
+          <div className="grid grid-cols-1 lg:grid-cols-8 gap-10 items-center">  
+            <div className="max-w-6xl mx-auto">
+                <h2 className="font-display text-4xl mb-3">
+                  Science in Action
+                </h2>
+                <p className="text-muted-foreground">
+                  Whether I'm presenting research, writing policy
+                  recommendations, mentoring students, or engaging
+                  with the public, I'm interested in helping people
+                  connect evidence with meaningful decisions.
+                </p>
+              </div>    
+          {/* Images */}
+          <div className="lg:col-span-8 grid grid-cols-4 gap-4">
+            {/* Large image */}
+            <div className="col-span-2 row-span-3 rounded-2xl overflow-hidden min-h-[500px]">
+              <img
+                src={TMTImg}
+                alt="3MT finalist competition talk"
+                className="w-full h-full object-cover"
+              />
+            </div>
+      
+            {/* Small images */}
+            <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
+              <img
+                src={presentingImg}
+                alt="Podium talk at local symposium"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
+              <img
+                src={conferenceImg}
+                alt="Podium talk at national conference"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="col-span-2 rounded-2xl overflow-hidden aspect-square">
+              <img
+                src={outreachImg}
+                alt="Conducting an air quality summer outreach program for migrant workers' children"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="col-span-2 rounded-2xl overflow-hidden aspect-square">
+              <img
+                src={policyImg}
+                alt="Boothing for grassroots science policy initiatives at the 2026 AAAS meeting"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          </div>
+              
   </div>
 </section>
         
