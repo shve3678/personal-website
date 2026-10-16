@@ -174,7 +174,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="py-20 border-t border-border"> 
+        <section className="py-16 border-t border-border"> 
             <div className="max-w-6xl mx-auto text-center mb-10">
                 <h2 className="font-display text-4xl mb-3">
                   Science in Action
