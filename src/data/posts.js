@@ -17,5 +17,6 @@ export const posts = [
       "Colorado is experiencing a mental health crisis; we are currently ranked 50th in the nation for the prevalence of mental health conditions, and loneliness is a major risk factor [3]. As our older adult population increasingly experiences social isolation, and our older adult population growth rate remains one of the fastest in the country, there is an urgent need to implement better measures to support our older adults. Colorado’s MPA joins few others in implementing a data dashboard to evaluate policy and provide metrics on how MPA-related measures to support older adults are progressing. By addressing social isolation as part of these measures, Colorado will see improvement in mental and physical health for older adults.\n",
       "References: [1] Colorado State Demography Office. [2] Blazer & Donovan, Am J Geriatr Psychiatry, 2020. [3] U.S. Surgeon General Social Connection Advisory, 2023. [4] Multisector Plan for Aging, West Health. [5] Pollak+, Res Gerontol Nurs, 2025. [6] Hu+, Front Public Health, 2024. [7] Sanchez-Cazalla & Gutierrez-Domingo, Archiv Geront Geriatr Plus, 2025.",
     ],
+    link: "/blog/n2",
   }
 ];
