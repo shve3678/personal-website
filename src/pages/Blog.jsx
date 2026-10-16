@@ -11,15 +11,15 @@ const posts = [
     tag: "Science Policy",
     link: "https://medium.com/science-policy-in-a-snap/the-past-is-our-present-a-history-of-americas-complicated-relationship-with-science-ca1d22f77fff",
   },
-  {
-    id: "n2",
-    date: "Aug 2026",
-    title: "Recommendations to reduce social isolation experienced by Older Coloradans",
-    excerpt:
-      "A policy memo I wrote at the conclusion of my science & technology policy internship this summer.",
-    read: "5 min",
-    tag: "Aging & Community Engagement",
-  },
+  // {
+  //   id: "n2",
+  //   date: "Aug 2026",
+  //   title: "Recommendations to reduce social isolation experienced by Older Coloradans",
+  //   excerpt:
+  //     "A policy memo I wrote at the conclusion of my science & technology policy internship this summer.",
+  //   read: "5 min",
+  //   tag: "Aging & Community Engagement",
+  // },
   // {
   //   id: "n3",
   //   date: "Jun 2026",
