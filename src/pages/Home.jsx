@@ -174,9 +174,8 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="py-20 border-t border-border">
-          <div className="grid grid-cols-1 lg:grid-cols-8 gap-10 items-center">  
-            <div className="max-w-6xl mx-auto">
+        <section className="py-20 border-t border-border"> 
+            <div className="max-w-6xl mx-auto text-center mb-10">
                 <h2 className="font-display text-4xl mb-3">
                   Science in Action
                 </h2>
@@ -188,9 +187,9 @@ export default function Home() {
                 </p>
               </div>    
           {/* Images */}
-          <div className="lg:col-span-8 grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-4 gap-4">
             {/* Large image */}
-            <div className="col-span-2 row-span-3 rounded-2xl overflow-hidden min-h-[500px]">
+            <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden min-h-[500px]">
               <img
                 src={TMTImg}
                 alt="3MT finalist competition talk"
@@ -199,14 +198,14 @@ export default function Home() {
             </div>
       
             {/* Small images */}
-            <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
+            <div className="col-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
               <img
                 src={presentingImg}
                 alt="Podium talk at local symposium"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
             </div>
-            <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
+            <div className="col-span-2 rounded-2xl overflow-hidden aspect-[2/1]">
               <img
                 src={conferenceImg}
                 alt="Podium talk at national conference"
@@ -227,7 +226,6 @@ export default function Home() {
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
             </div>
-          </div>
               
   </div>
 </section>
