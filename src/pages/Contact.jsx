@@ -5,7 +5,7 @@ export default function Contact() {
   const channels = [
     { label: "Email", value: "shreya@venkateshreya.com", href: "mailto:shreya@venkateshreya.com" },
     { label: "ORCID", value: "0000-0002-2991-029X", href: "https://orcid.org/0000-0002-2991-029X" },
-    { label: "GitHub", value: "Check out the repositories where I built this personal website and other projects!", href: "https://github.com/shve3678" },
+    { label: "GitHub", value: "Check out how I built this personal website and other projects!", href: "https://github.com/shve3678" },
     { label: "Instagram", value: "@dancingshreya", href: "https://instagram.com/dancingshreya" },
   ];
 
