@@ -9,7 +9,6 @@ import Blog from '@/pages/Blog';
 import Creative from '@/pages/Creative';
 import Contact from '@/pages/Contact';
 import SiteLayout from '@/components/SiteLayout';
-import BlogPost from '@/pages/BlogPost';
 
 function App() {
   return (
@@ -23,8 +22,6 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/creative" element={<Creative />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
           </Route>
           <Route path="*" element={<PageNotFound />} />
         </Routes>
