@@ -208,6 +208,10 @@ export default function Research() {
         </section>
 
         {/* portfolio grid + detail */}
+        <section className="mb-16">
+          <p className="font-mono text-[15px] uppercase tracking-[0.2em] text-muted-foreground mb-5">
+            <span className="text-pop">→</span> Featured Work
+          </p>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {projects.map((p, i) =>
@@ -274,6 +278,7 @@ export default function Research() {
             </a>
           </div>
         </div>
+    </section>
       </div>
     </div>);
 
