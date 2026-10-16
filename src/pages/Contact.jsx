@@ -4,8 +4,8 @@ import contactImg from "@/assets/contact.png";
 export default function Contact() {
   const channels = [
     { label: "Email", value: "shreya@venkateshreya.com", href: "mailto:shreya@venkateshreya.com" },
-    { label: "Scholar", value: "Google Scholar profile", href: "https://scholar.google.com/citations?user=GjxKj1UAAAAJ&hl=en" },
     { label: "ORCID", value: "0000-0002-2991-029X", href: "https://orcid.org/0000-0002-2991-029X" },
+    { label: "GitHub", value: "Check out the repositories where I built this personal website and other projects!", href: "https://github.com/shve3678" },
     { label: "Instagram", value: "@dancingshreya", href: "https://instagram.com/dancingshreya" },
   ];
 
@@ -47,7 +47,7 @@ export default function Contact() {
             <div className="relative aspect-[1/1] rounded-2xl overflow-hidden">
               <img
                 src={contactImg}
-                alt="Bunny sunset sketch"
+                alt="Bunny turtle sketch"
                 className="absolute inset-0 h-full w-full object-contain"
               />
             </div>
